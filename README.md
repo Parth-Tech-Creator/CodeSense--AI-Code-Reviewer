@@ -49,11 +49,11 @@ git clone <your-repo-url>
 cd backend
 npm install
 
-Create a .env file and add your credentials:
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_super_secret_key
-GROQ_API_KEY=your_groq_api_key
+# Create a .env file and add your credentials:
+# PORT=5000
+# MONGO_URI=your_mongodb_connection_string
+# JWT_SECRET=your_super_secret_key
+# GROQ_API_KEY=your_groq_api_key
 
 npm run dev
 

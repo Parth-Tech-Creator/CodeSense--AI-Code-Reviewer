@@ -1,6 +1,5 @@
 # 🚀 AI Code Analyzer
 
-![AI Code Analyzer Screenshot](./screenshot.png)
 
 An advanced, production-grade AI-powered code analysis platform built on the **MERN Stack** (MongoDB, Express, React, Node.js). This platform acts as your personal Senior Software Engineer, offering deep code analysis, auto-refactoring, simulated technical interviews, and automated test case generation.
 
@@ -44,32 +43,25 @@ An advanced, production-grade AI-powered code analysis platform built on the **M
 * Groq API Key
 
 ### 1. Clone the repository
-\`\`\`bash
 git clone <your-repo-url>
-cd AI_CODE_EXPLAINER/mern_code_analyzer
-\`\`\`
 
 ### 2. Backend Setup
-\`\`\`bash
 cd backend
 npm install
 
-# Create a .env file and add your credentials:
-# PORT=5000
-# MONGO_URI=your_mongodb_connection_string
-# JWT_SECRET=your_super_secret_key
-# GROQ_API_KEY=your_groq_api_key
+Create a .env file and add your credentials:
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_super_secret_key
+GROQ_API_KEY=your_groq_api_key
 
 npm run dev
-\`\`\`
 
 ### 3. Frontend Setup
 Open a new terminal window:
-\`\`\`bash
 cd frontend
 npm install
 npm run dev
-\`\`\`
 
 ### 4. Visit the Application
 Navigate to `http://localhost:5173` in your browser. Register a new account to access the dashboard!
